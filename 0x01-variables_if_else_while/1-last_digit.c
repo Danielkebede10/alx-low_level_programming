@@ -2,20 +2,22 @@
 #include<time.h>
 #include<stdio.h>
 /**
-* main - Entry point
-* Description: "prints if number is positive, zero or negative"
+*main - Entry point
+*Description: "prints if number is positive, zero or negative"
 * Return: Always 0 (Success)                            *
-*/                                                      
+*/
+
 int main(void)
 {
 	int a;
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	a = n % 10;
 	if (a > 5)
 	{
-		printf("Last digit of %d is %d greater than 5\n", n, a);
+		printf("Last digit of %d is %d and is greater than 5\n", n, a);
 	}
 	else if (a == 0)
 	{
