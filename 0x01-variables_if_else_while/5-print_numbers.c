@@ -1,23 +1,18 @@
 #include<stdio.h>
 
 /**
-* main - prints the alphabet in lower case
-* followed by a new line, except q and e
-* Return: Always 0
-*
+*main - prints all strings from 0 to 9
+*Return: Always 0
 */
 
 int main(void)
 {
-	char la;
+	int num;
 
-	for (la = 'a'; la <= 'z'; la++)
-	{
-		if (la != 'e'; && la != 'q')
-			putchar(la);
-	}
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
 
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
