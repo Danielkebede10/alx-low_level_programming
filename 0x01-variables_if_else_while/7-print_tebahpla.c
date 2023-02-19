@@ -4,7 +4,7 @@
  * main - print the alphabets in reverse
  * Return: Always 0
  */
-int main(void)
+	int main(void)
 {
 	char le;
 
@@ -12,6 +12,6 @@ int main(void)
 		putchar(le);
 
 	putchar('\n');
-	
+
 	return (0);
 }
