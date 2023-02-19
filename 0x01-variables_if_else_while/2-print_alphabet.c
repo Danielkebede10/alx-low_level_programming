@@ -1,6 +1,6 @@
 #include<stdlib.h>                                     
-/**                                                     *main - Entry point
-*Description: "prints alphabet in lower case"           *Return: Always 0 (Success)                            
+/**                                                     *main - prints alpha in lower case           
+*Return: Always 0 (Success)                            
 *                                                       */
 
 int main(void)
@@ -11,5 +11,6 @@ int main(void)
 	{
 		putchar(lc);
 	}
+	putchar('\n')
 	return (0);
 }
